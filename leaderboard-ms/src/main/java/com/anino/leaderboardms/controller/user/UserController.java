@@ -40,7 +40,7 @@ public class UserController {
 	}
 	
 	@GetMapping(value = "/user/{_id}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<User> addNewUser(@PathVariable(value = "_id") String id) throws NoDataFoundException{
+	public ResponseEntity<User> getUserById(@PathVariable(value = "_id") String id) throws NoDataFoundException{
 		
 		Optional<User> user = userRepository.findById(id);
 		if(!user.isPresent()) {
