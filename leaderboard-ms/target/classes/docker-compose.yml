@@ -1,0 +1,14 @@
+version: "3"
+services:
+ mymongodb:
+   image: mongo:latest
+   container_name: "mymongodb"
+   ports:
+     - 27017:27017
+ springboot-mongodb:
+   image: leaderboard-ms
+   container_name: leaderboard-ms
+   ports:
+     - 8989:8989
+   links:
+     - mymongodb    

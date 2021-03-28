@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.anino.leaderboardms.LeaderboardMsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.826 s - in com.anino.leaderboardms.LeaderboardMsApplicationTests
